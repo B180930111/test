@@ -1,76 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,500;1,600&display=swap');
+*{
+    margin : 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 .navbar {
-    color: #000;
-    font-family: "futura-pt",sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding-right: 20px;
-    padding-left: 20px;
+    width: 37%;
+    color: yellow;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 10%;
+    left: 35%;
 }
-
-.nav1 {
-    float: left;
+.navbar .container{
+    max-width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 650px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-.taniltsuulga-section{
-    overflow: hidden;
-    text-align: center;
-    background: white;
-    padding: 60px;
+nav{
+    display: flex;
 }
-
-.border{
-    display: block;
-    margin: auto;
-    width: 160px;
-    height: 3px;
-    background: #3498db;
-    margin-bottom: 40px;
+nav ul{
+    display: flex;
+    margin-right: 10px;
 }
-.ps{
-    margin-bottom: 40px;
-}
-.ps a{
-    display: inline-block;
-    margin: 0 30px;
-    width: 160px;
-    height: 160px;
-    overflow: hidden;
-    
-}
-.ps a img{
-    width: 100%;
-    height: 100%;
-    
-
-}
-
-.sectionn{
-    width: 600px;
-    margin: auto;
-    font-size: 20px;
+nav ul li a{
     color: black;
-    
-    height: 0;
-    overflow: hidden;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0px 10px;
 }
-.sectionn:target{
-    height: auto;
+.navbar .button a{
+    text-decoration: none;
+    background-color: yellow;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 17px;
+    background-color: black;
+
 }
-.name{
-    display: block;
-    margin-bottom: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 22px;
+.navbar .button a:hover{
+    background-color: blueviolet;
+    transition: 2s ease;
 }
+.z1{
+    position: absolute;
+    top: 10%;
+    left: 29%;
+}
+
+
+
+
+
+
+
+
+
+
+
