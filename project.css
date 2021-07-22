@@ -1,15 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,500;1,600&display=swap');
+*{
+    margin : 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 .navbar {
-    color: #000;
-    font-family: "futura-pt",sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding-right: 20px;
-    padding-left: 20px;
+    width: 37%;
+    color: yellow;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+.navbar .container{
+    max-width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 650px;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    margin-right: 10px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0px 10px;
+}
+.navbar .button a{
+    text-decoration: none;
+    background-color: yellow;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 17px;
+    background-color: black;
+
+}
+.navbar .button a:hover{
+    background-color: blueviolet;
+    transition: 2s ease;
+}
+.z1{
+    position: absolute;
+    top: 10%;
+    left: 29%;
 }
 
-.nav1 {
-    float: left;
-}
 
 
 
@@ -20,8 +66,7 @@
 
 
 
-
-
+<<<<<<< HEAD
 .taniltsuulga-section{
     overflow: hidden;
     text-align: center;
@@ -88,3 +133,5 @@ element.style {
     padding: 0;
     margin-right: 0;
 }
+=======
+>>>>>>> 2230e004c696577385292d055799b247e1dffb7b
