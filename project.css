@@ -1,3 +1,58 @@
+body {
+    margin: auto;
+    font-family: "futura-pt",sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+element.style {
+    background-image: url(pharma1.jpg);
+}
+
+
+#masthead {
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header {
+    display: block;
+}
+body {
+    margin: auto;
+    font-family: "futura-pt",sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,500;1,600&display=swap');
 *{
     margin : 0px;
@@ -53,7 +108,7 @@ nav ul li a{
 .z1{
     position: absolute;
     top: 10%;
-    left: 29%;
+    left: 28%;
 }
 
 
