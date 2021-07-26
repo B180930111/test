@@ -1,0 +1,23 @@
+section-хэсэг
+invoke-дуудах
+to acces- нэвтрэх
+scope- хамрах хүрээ
+variable-хувьсагч
+properties-шинж чанарууд
+method-арга
+belong to-харьяалагдах
+specifying -зааж өгөх
+optional-заавал биш
+purpose-зорилго
+execute-гүйцэтгэх
+Statement-мэдэгдэл,тайлан
+composed of-бүрдсэн
+Semicolons-цэгтэй таслал
+curly brackets-буржгар хаалт буюу гоё хаалт
+Declare-зарлах
+define-тодорхойлох
+Literal-шууд утгаар
+Dollar Sign- $
+split-салгах
+handle-зохицуулах
+
