@@ -63,11 +63,11 @@ html {
 .navbar {
     width: 37%;
     color: yellow;
-    height: 10%;
+    height: 11%;
     background-color: yellow;
     position: absolute;
     top: 10%;
-    left: 35%;
+    left: 38%;
 }
 .navbar .container{
     max-width: 100%;
